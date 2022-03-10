@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'League Gothic', 'Arial', sans-serif;
+    font-size: 400;
+    font-weight: 32px;
+    letter-spacing: 1.2px;
+    width: 100%;
+    max-width: 1600;
+    text-align: center;
+}
+
+.first-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1200/600?random=1");
+    width: 100%;
+    height: 600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+
+}
+
+.first-part-text {
+    color:#222;
+    background-color: #2e6900;
+    width: 400px;
+    padding: 24px 40px;
+}
+
+.second-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1200/600?random=2");
+    width: 100%;
+    height: 700px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.second-part-text {
+    color:#222;
+    background-color: #ff0000;
+    width: 400px;
+    padding: 24px 40px;
+}
+
+h2 {
+    font-family: 'League Gothic', 'Arial', sans-serif;
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+p {
+    font-size: 28px;
+    padding-bottom: 32px;
+}
+
+
+.third-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1200/600?random=3");
+    width: 100%;
+    height: 600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.third-part-text {
+    color:#222;
+    background-color: #90a000;
+    width: 400px;
+    padding: 24px 40px;
+}
+
+
+
+
+.fourth-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://picsum.photos/1200/600?random=1");
+    width: 100%;
+    height: 600px;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.fourth-part-text {
+    color:#222;
+    background-color: #4400ff;
+    width: 400px;
+    padding: 24px 40px;
+}
